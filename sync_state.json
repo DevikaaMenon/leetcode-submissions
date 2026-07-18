@@ -1,0 +1,1580 @@
+{
+  "add-digits": {
+    "synced_ids": [
+      "2011251165"
+    ],
+    "versions": [
+      {
+        "code_hash": "-8153501691548076883",
+        "date": "2026-05-24",
+        "id": "2011251165",
+        "lang": "cpp",
+        "memory": "8.6 MB",
+        "runtime": "1\u00a0month, 3\u00a0weeks",
+        "version": 1
+      }
+    ]
+  },
+  "add-two-numbers": {
+    "synced_ids": [
+      "1962561766"
+    ],
+    "versions": [
+      {
+        "code_hash": "8244165245714209423",
+        "date": "2026-03-29",
+        "id": "1962561766",
+        "lang": "python3",
+        "memory": "19.2 MB",
+        "runtime": "3\u00a0months, 2\u00a0weeks",
+        "version": 1
+      }
+    ]
+  },
+  "best-time-to-buy-and-sell-stock": {
+    "synced_ids": [
+      "2004401067",
+      "2055768922"
+    ],
+    "versions": [
+      {
+        "code_hash": "-2395320317742236419",
+        "date": "2026-05-16",
+        "id": "2004401067",
+        "lang": "cpp",
+        "memory": "97.2 MB",
+        "runtime": "2\u00a0months",
+        "version": 1
+      },
+      {
+        "code_hash": "-2024037917332965787",
+        "date": "2026-07-04",
+        "id": "2055768922",
+        "lang": "cpp",
+        "memory": "97.2 MB",
+        "runtime": "1\u00a0week, 6\u00a0days",
+        "version": 2
+      }
+    ]
+  },
+  "check-if-it-is-a-good-array": {
+    "synced_ids": [
+      "2062402136"
+    ],
+    "versions": [
+      {
+        "code_hash": "3494884830657291084",
+        "date": "2026-07-10",
+        "id": "2062402136",
+        "lang": "cpp",
+        "memory": "33 MB",
+        "runtime": "1\u00a0week, 1\u00a0day",
+        "version": 1
+      }
+    ]
+  },
+  "climbing-stairs": {
+    "synced_ids": [
+      "2050671145",
+      "2050692434",
+      "2051820266",
+      "2053100067"
+    ],
+    "versions": [
+      {
+        "code_hash": "-2163350052479746858",
+        "date": "2026-06-30",
+        "id": "2050671145",
+        "lang": "cpp",
+        "memory": "8.5 MB",
+        "runtime": "2\u00a0weeks, 4\u00a0days",
+        "version": 1
+      },
+      {
+        "code_hash": "-247484572635419075",
+        "date": "2026-06-30",
+        "id": "2050692434",
+        "lang": "cpp",
+        "memory": "7.9 MB",
+        "runtime": "2\u00a0weeks, 4\u00a0days",
+        "version": 2
+      },
+      {
+        "code_hash": "-2727861014456400100",
+        "date": "2026-07-01",
+        "id": "2051820266",
+        "lang": "cpp",
+        "memory": "7.7 MB",
+        "runtime": "2\u00a0weeks, 3\u00a0days",
+        "version": 3
+      },
+      {
+        "code_hash": "-1038461104263643270",
+        "date": "2026-07-02",
+        "id": "2053100067",
+        "lang": "cpp",
+        "memory": "7.7 MB",
+        "runtime": "2\u00a0weeks, 2\u00a0days",
+        "version": 4
+      }
+    ]
+  },
+  "coin-change": {
+    "synced_ids": [
+      "2031604473"
+    ],
+    "versions": [
+      {
+        "code_hash": "-8237527317975246104",
+        "date": "2026-06-13",
+        "id": "2031604473",
+        "lang": "cpp",
+        "memory": "17.9 MB",
+        "runtime": "1\u00a0month",
+        "version": 1
+      }
+    ]
+  },
+  "coin-change-ii": {
+    "synced_ids": [
+      "2031621653"
+    ],
+    "versions": [
+      {
+        "code_hash": "7561971823706883984",
+        "date": "2026-06-13",
+        "id": "2031621653",
+        "lang": "cpp",
+        "memory": "10.5 MB",
+        "runtime": "1\u00a0month",
+        "version": 1
+      }
+    ]
+  },
+  "concatenate-non-zero-digits-and-multiply-by-sum-i": {
+    "synced_ids": [
+      "2058647925"
+    ],
+    "versions": [
+      {
+        "code_hash": "8148880116524556043",
+        "date": "2026-07-07",
+        "id": "2058647925",
+        "lang": "cpp",
+        "memory": "9.2 MB",
+        "runtime": "1\u00a0week, 4\u00a0days",
+        "version": 1
+      }
+    ]
+  },
+  "concatenate-non-zero-digits-and-multiply-by-sum-ii": {
+    "synced_ids": [
+      "2059941778"
+    ],
+    "versions": [
+      {
+        "code_hash": "-490323970986908959",
+        "date": "2026-07-08",
+        "id": "2059941778",
+        "lang": "cpp",
+        "memory": "134.7 MB",
+        "runtime": "1\u00a0week, 3\u00a0days",
+        "version": 1
+      }
+    ]
+  },
+  "concatenation-of-array": {
+    "synced_ids": [
+      "2021399155",
+      "2021400985"
+    ],
+    "versions": [
+      {
+        "code_hash": "1223713824880502922",
+        "date": "2026-06-03",
+        "id": "2021399155",
+        "lang": "cpp",
+        "memory": "17.2 MB",
+        "runtime": "1\u00a0month, 2\u00a0weeks",
+        "version": 1
+      },
+      {
+        "code_hash": "-449555767899235758",
+        "date": "2026-06-03",
+        "id": "2021400985",
+        "lang": "cpp",
+        "memory": "16.8 MB",
+        "runtime": "1\u00a0month, 2\u00a0weeks",
+        "version": 2
+      }
+    ]
+  },
+  "contains-duplicate": {
+    "synced_ids": [
+      "2045668736"
+    ],
+    "versions": [
+      {
+        "code_hash": "-4100945940217256747",
+        "date": "2026-06-25",
+        "id": "2045668736",
+        "lang": "cpp",
+        "memory": "90.8 MB",
+        "runtime": "3\u00a0weeks, 1\u00a0day",
+        "version": 1
+      }
+    ]
+  },
+  "course-schedule-iv": {
+    "synced_ids": [
+      "2019762907",
+      "2019765516",
+      "2034642609"
+    ],
+    "versions": [
+      {
+        "code_hash": "4974899767589140669",
+        "date": "2026-06-02",
+        "id": "2019762907",
+        "lang": "cpp",
+        "memory": "73 MB",
+        "runtime": "1\u00a0month, 2\u00a0weeks",
+        "version": 1
+      },
+      {
+        "code_hash": "-232778156342088620",
+        "date": "2026-06-16",
+        "id": "2034642609",
+        "lang": "cpp",
+        "memory": "73 MB",
+        "runtime": "1\u00a0month",
+        "version": 2
+      }
+    ]
+  },
+  "excel-sheet-column-title": {
+    "synced_ids": [
+      "2021852136"
+    ],
+    "versions": [
+      {
+        "code_hash": "4596481483445830783",
+        "date": "2026-06-04",
+        "id": "2021852136",
+        "lang": "cpp",
+        "memory": "7.7 MB",
+        "runtime": "1\u00a0month, 2\u00a0weeks",
+        "version": 1
+      }
+    ]
+  },
+  "fibonacci-number": {
+    "synced_ids": [
+      "2070148807"
+    ],
+    "versions": [
+      {
+        "code_hash": "8339175852920419994",
+        "date": "2026-07-16",
+        "id": "2070148807",
+        "lang": "cpp",
+        "memory": "7.9 MB",
+        "runtime": "1\u00a0day, 14\u00a0hours",
+        "version": 1
+      }
+    ]
+  },
+  "find-all-numbers-disappeared-in-an-array": {
+    "synced_ids": [
+      "2031259847"
+    ],
+    "versions": [
+      {
+        "code_hash": "-6938108721353027783",
+        "date": "2026-06-13",
+        "id": "2031259847",
+        "lang": "cpp",
+        "memory": "64.2 MB",
+        "runtime": "1\u00a0month",
+        "version": 1
+      }
+    ]
+  },
+  "find-first-and-last-position-of-element-in-sorted-array": {
+    "synced_ids": [
+      "2063133176",
+      "2063164788",
+      "2063165020",
+      "2063166382"
+    ],
+    "versions": [
+      {
+        "code_hash": "-1030559190515794458",
+        "date": "2026-07-10",
+        "id": "2063133176",
+        "lang": "cpp",
+        "memory": "17.6 MB",
+        "runtime": "1\u00a0week",
+        "version": 1
+      },
+      {
+        "code_hash": "-8002761561634366940",
+        "date": "2026-07-10",
+        "id": "2063164788",
+        "lang": "cpp",
+        "memory": "18.2 MB",
+        "runtime": "1\u00a0week",
+        "version": 2
+      },
+      {
+        "code_hash": "4403399904231964709",
+        "date": "2026-07-10",
+        "id": "2063166382",
+        "lang": "cpp",
+        "memory": "18.1 MB",
+        "runtime": "1\u00a0week",
+        "version": 3
+      }
+    ]
+  },
+  "find-median-from-data-stream": {
+    "synced_ids": [
+      "2061137486"
+    ],
+    "versions": [
+      {
+        "code_hash": "5500773402408954792",
+        "date": "2026-07-09",
+        "id": "2061137486",
+        "lang": "cpp",
+        "memory": "148.6 MB",
+        "runtime": "1\u00a0week, 2\u00a0days",
+        "version": 1
+      }
+    ]
+  },
+  "find-missing-and-repeated-values": {
+    "synced_ids": [
+      "2013119405"
+    ],
+    "versions": [
+      {
+        "code_hash": "-1704029438408557504",
+        "date": "2026-05-26",
+        "id": "2013119405",
+        "lang": "cpp",
+        "memory": "31.8 MB",
+        "runtime": "1\u00a0month, 3\u00a0weeks",
+        "version": 1
+      }
+    ]
+  },
+  "fizz-buzz": {
+    "synced_ids": [
+      "2013658253",
+      "2024873552"
+    ],
+    "versions": [
+      {
+        "code_hash": "4317759586282304164",
+        "date": "2026-05-26",
+        "id": "2013658253",
+        "lang": "cpp",
+        "memory": "11.7 MB",
+        "runtime": "1\u00a0month, 3\u00a0weeks",
+        "version": 1
+      },
+      {
+        "code_hash": "-3962371439654832639",
+        "date": "2026-06-07",
+        "id": "2024873552",
+        "lang": "cpp",
+        "memory": "11.7 MB",
+        "runtime": "1\u00a0month, 1\u00a0week",
+        "version": 2
+      }
+    ]
+  },
+  "gcd-of-odd-and-even-sums": {
+    "synced_ids": [
+      "2070805060"
+    ],
+    "versions": [
+      {
+        "code_hash": "-2601366372760283747",
+        "date": "2026-07-17",
+        "id": "2070805060",
+        "lang": "cpp",
+        "memory": "8.6 MB",
+        "runtime": "23\u00a0hours, 33\u00a0minutes",
+        "version": 1
+      }
+    ]
+  },
+  "group-anagrams": {
+    "synced_ids": [
+      "2048958147",
+      "2050241280",
+      "2055717079"
+    ],
+    "versions": [
+      {
+        "code_hash": "-5603438043401969721",
+        "date": "2026-06-28",
+        "id": "2048958147",
+        "lang": "cpp",
+        "memory": "25 MB",
+        "runtime": "2\u00a0weeks, 5\u00a0days",
+        "version": 1
+      },
+      {
+        "code_hash": "5280268807805838496",
+        "date": "2026-06-29",
+        "id": "2050241280",
+        "lang": "cpp",
+        "memory": "24.9 MB",
+        "runtime": "2\u00a0weeks, 4\u00a0days",
+        "version": 2
+      },
+      {
+        "code_hash": "-9139689619023216884",
+        "date": "2026-07-04",
+        "id": "2055717079",
+        "lang": "cpp",
+        "memory": "24.9 MB",
+        "runtime": "1\u00a0week, 6\u00a0days",
+        "version": 3
+      }
+    ]
+  },
+  "house-robber": {
+    "synced_ids": [
+      "2063494633"
+    ],
+    "versions": [
+      {
+        "code_hash": "7382322526467682914",
+        "date": "2026-07-11",
+        "id": "2063494633",
+        "lang": "cpp",
+        "memory": "10.8 MB",
+        "runtime": "1\u00a0week",
+        "version": 1
+      }
+    ]
+  },
+  "how-many-numbers-are-smaller-than-the-current-number": {
+    "synced_ids": [
+      "2021739149"
+    ],
+    "versions": [
+      {
+        "code_hash": "-1291748488379716450",
+        "date": "2026-06-04",
+        "id": "2021739149",
+        "lang": "cpp",
+        "memory": "14.2 MB",
+        "runtime": "1\u00a0month, 2\u00a0weeks",
+        "version": 1
+      }
+    ]
+  },
+  "integer-to-roman": {
+    "synced_ids": [
+      "2023036310"
+    ],
+    "versions": [
+      {
+        "code_hash": "-8728590234146052260",
+        "date": "2026-06-05",
+        "id": "2023036310",
+        "lang": "cpp",
+        "memory": "12.7 MB",
+        "runtime": "1\u00a0month, 1\u00a0week",
+        "version": 1
+      }
+    ]
+  },
+  "invert-binary-tree": {
+    "synced_ids": [
+      "2067162731"
+    ],
+    "versions": [
+      {
+        "code_hash": "4249150347247419292",
+        "date": "2026-07-14",
+        "id": "2067162731",
+        "lang": "cpp",
+        "memory": "12.5 MB",
+        "runtime": "3\u00a0days, 21\u00a0hours",
+        "version": 1
+      }
+    ]
+  },
+  "k-closest-points-to-origin": {
+    "synced_ids": [
+      "2062503834"
+    ],
+    "versions": [
+      {
+        "code_hash": "-1600285219244346574",
+        "date": "2026-07-10",
+        "id": "2062503834",
+        "lang": "cpp",
+        "memory": "77.9 MB",
+        "runtime": "1\u00a0week, 1\u00a0day",
+        "version": 1
+      }
+    ]
+  },
+  "kth-largest-element-in-an-array": {
+    "synced_ids": [
+      "2061173065"
+    ],
+    "versions": [
+      {
+        "code_hash": "7599387111076095049",
+        "date": "2026-07-09",
+        "id": "2061173065",
+        "lang": "cpp",
+        "memory": "72.5 MB",
+        "runtime": "1\u00a0week, 2\u00a0days",
+        "version": 1
+      }
+    ]
+  },
+  "largest-palindromic-number": {
+    "synced_ids": [
+      "2068646503"
+    ],
+    "versions": [
+      {
+        "code_hash": "5175699452512662152",
+        "date": "2026-07-15",
+        "id": "2068646503",
+        "lang": "cpp",
+        "memory": "17.3 MB",
+        "runtime": "2\u00a0days, 17\u00a0hours",
+        "version": 1
+      }
+    ]
+  },
+  "longest-balanced-subarray-i": {
+    "synced_ids": [
+      "2041309851",
+      "2049433352",
+      "2052499497",
+      "2062840183"
+    ],
+    "versions": [
+      {
+        "code_hash": "706412322857994570",
+        "date": "2026-06-21",
+        "id": "2041309851",
+        "lang": "cpp",
+        "memory": "530.6 MB",
+        "runtime": "3\u00a0weeks, 5\u00a0days",
+        "version": 1
+      },
+      {
+        "code_hash": "-1133274007694021864",
+        "date": "2026-06-29",
+        "id": "2049433352",
+        "lang": "cpp",
+        "memory": "530.6 MB",
+        "runtime": "2\u00a0weeks, 5\u00a0days",
+        "version": 2
+      },
+      {
+        "code_hash": "532327119005357700",
+        "date": "2026-07-01",
+        "id": "2052499497",
+        "lang": "cpp",
+        "memory": "530.4 MB",
+        "runtime": "2\u00a0weeks, 2\u00a0days",
+        "version": 3
+      },
+      {
+        "code_hash": "5726167380473160506",
+        "date": "2026-07-10",
+        "id": "2062840183",
+        "lang": "cpp",
+        "memory": "530.6 MB",
+        "runtime": "1\u00a0week",
+        "version": 4
+      }
+    ]
+  },
+  "longest-common-prefix": {
+    "synced_ids": [
+      "2065039989",
+      "2066464240"
+    ],
+    "versions": [
+      {
+        "code_hash": "-6593954100887737571",
+        "date": "2026-07-12",
+        "id": "2065039989",
+        "lang": "cpp",
+        "memory": "11.8 MB",
+        "runtime": "5\u00a0days, 17\u00a0hours",
+        "version": 1
+      }
+    ]
+  },
+  "longest-common-subsequence": {
+    "synced_ids": [
+      "2031526222"
+    ],
+    "versions": [
+      {
+        "code_hash": "-1789596273471538879",
+        "date": "2026-06-13",
+        "id": "2031526222",
+        "lang": "cpp",
+        "memory": "27.4 MB",
+        "runtime": "1\u00a0month",
+        "version": 1
+      }
+    ]
+  },
+  "longest-palindromic-substring": {
+    "synced_ids": [
+      "2071827502"
+    ],
+    "versions": [
+      {
+        "code_hash": "5269395983180637599",
+        "date": "2026-07-18",
+        "id": "2071827502",
+        "lang": "cpp",
+        "memory": "13.6 MB",
+        "runtime": "55\u00a0minutes",
+        "version": 1
+      }
+    ]
+  },
+  "majority-element": {
+    "synced_ids": [
+      "1999304205",
+      "1999536804"
+    ],
+    "versions": [
+      {
+        "code_hash": "8057789555982706496",
+        "date": "2026-05-10",
+        "id": "1999304205",
+        "lang": "cpp",
+        "memory": "28.3 MB",
+        "runtime": "2\u00a0months, 1\u00a0week",
+        "version": 1
+      },
+      {
+        "code_hash": "-1546293350618674057",
+        "date": "2026-05-10",
+        "id": "1999536804",
+        "lang": "cpp",
+        "memory": "28.2 MB",
+        "runtime": "2\u00a0months, 1\u00a0week",
+        "version": 2
+      }
+    ]
+  },
+  "max-area-of-island": {
+    "synced_ids": [
+      "1958583694"
+    ],
+    "versions": [
+      {
+        "code_hash": "-3737673115641803166",
+        "date": "2026-03-25",
+        "id": "1958583694",
+        "lang": "python3",
+        "memory": "20.6 MB",
+        "runtime": "3\u00a0months, 3\u00a0weeks",
+        "version": 1
+      }
+    ]
+  },
+  "max-consecutive-ones": {
+    "synced_ids": [
+      "1993991277",
+      "2021451844"
+    ],
+    "versions": [
+      {
+        "code_hash": "4388735524770183854",
+        "date": "2026-05-03",
+        "id": "1993991277",
+        "lang": "cpp",
+        "memory": "50.1 MB",
+        "runtime": "2\u00a0months, 2\u00a0weeks",
+        "version": 1
+      },
+      {
+        "code_hash": "3427755516286935156",
+        "date": "2026-06-03",
+        "id": "2021451844",
+        "lang": "cpp",
+        "memory": "50.1 MB",
+        "runtime": "1\u00a0month, 2\u00a0weeks",
+        "version": 2
+      }
+    ]
+  },
+  "maximum-depth-of-binary-tree": {
+    "synced_ids": [
+      "2046449736",
+      "2046453696",
+      "2049429099"
+    ],
+    "versions": [
+      {
+        "code_hash": "-7530935186206304246",
+        "date": "2026-06-26",
+        "id": "2046449736",
+        "lang": "cpp",
+        "memory": "19 MB",
+        "runtime": "3\u00a0weeks, 1\u00a0day",
+        "version": 1
+      },
+      {
+        "code_hash": "5682995860735222876",
+        "date": "2026-06-26",
+        "id": "2046453696",
+        "lang": "cpp",
+        "memory": "19 MB",
+        "runtime": "3\u00a0weeks, 1\u00a0day",
+        "version": 2
+      },
+      {
+        "code_hash": "-5060185155161993693",
+        "date": "2026-06-29",
+        "id": "2049429099",
+        "lang": "cpp",
+        "memory": "19 MB",
+        "runtime": "2\u00a0weeks, 5\u00a0days",
+        "version": 3
+      }
+    ]
+  },
+  "maximum-subarray": {
+    "synced_ids": [
+      "2002565297",
+      "2028089943"
+    ],
+    "versions": [
+      {
+        "code_hash": "-8905526041084856942",
+        "date": "2026-05-14",
+        "id": "2002565297",
+        "lang": "cpp",
+        "memory": "71.8 MB",
+        "runtime": "2\u00a0months",
+        "version": 1
+      },
+      {
+        "code_hash": "-5129611770515602338",
+        "date": "2026-06-10",
+        "id": "2028089943",
+        "lang": "cpp",
+        "memory": "71.6 MB",
+        "runtime": "1\u00a0month, 1\u00a0week",
+        "version": 2
+      }
+    ]
+  },
+  "merge-sorted-array": {
+    "synced_ids": [
+      "2053180431"
+    ],
+    "versions": [
+      {
+        "code_hash": "6962691033936008309",
+        "date": "2026-07-02",
+        "id": "2053180431",
+        "lang": "cpp",
+        "memory": "12.4 MB",
+        "runtime": "2\u00a0weeks, 1\u00a0day",
+        "version": 1
+      }
+    ]
+  },
+  "merge-strings-alternately": {
+    "synced_ids": [
+      "2011140304",
+      "2061300694"
+    ],
+    "versions": [
+      {
+        "code_hash": "408815118280986595",
+        "date": "2026-05-23",
+        "id": "2011140304",
+        "lang": "cpp",
+        "memory": "8.4 MB",
+        "runtime": "1\u00a0month, 3\u00a0weeks",
+        "version": 1
+      },
+      {
+        "code_hash": "-8734595214812323500",
+        "date": "2026-07-09",
+        "id": "2061300694",
+        "lang": "cpp",
+        "memory": "8.3 MB",
+        "runtime": "1\u00a0week, 2\u00a0days",
+        "version": 2
+      }
+    ]
+  },
+  "merge-two-sorted-lists": {
+    "synced_ids": [
+      "1995479783"
+    ],
+    "versions": [
+      {
+        "code_hash": "3582532067175760154",
+        "date": "2026-05-05",
+        "id": "1995479783",
+        "lang": "cpp",
+        "memory": "19.6 MB",
+        "runtime": "2\u00a0months, 1\u00a0week",
+        "version": 1
+      }
+    ]
+  },
+  "middle-of-the-linked-list": {
+    "synced_ids": [
+      "2025584892"
+    ],
+    "versions": [
+      {
+        "code_hash": "-1468095909793703800",
+        "date": "2026-06-07",
+        "id": "2025584892",
+        "lang": "cpp",
+        "memory": "10 MB",
+        "runtime": "1\u00a0month, 1\u00a0week",
+        "version": 1
+      }
+    ]
+  },
+  "min-cost-climbing-stairs": {
+    "synced_ids": [
+      "2070160913"
+    ],
+    "versions": [
+      {
+        "code_hash": "-1904595920115142967",
+        "date": "2026-07-16",
+        "id": "2070160913",
+        "lang": "cpp",
+        "memory": "17.5 MB",
+        "runtime": "1\u00a0day, 14\u00a0hours",
+        "version": 1
+      }
+    ]
+  },
+  "minimum-cost-of-buying-candies-with-discount": {
+    "synced_ids": [
+      "2057121467",
+      "2057412664"
+    ],
+    "versions": [
+      {
+        "code_hash": "8136390970766566338",
+        "date": "2026-07-05",
+        "id": "2057121467",
+        "lang": "cpp",
+        "memory": "14.2 MB",
+        "runtime": "1\u00a0week, 5\u00a0days",
+        "version": 1
+      },
+      {
+        "code_hash": "5731148926419187589",
+        "date": "2026-07-06",
+        "id": "2057412664",
+        "lang": "cpp",
+        "memory": "14.2 MB",
+        "runtime": "1\u00a0week, 5\u00a0days",
+        "version": 2
+      }
+    ]
+  },
+  "minimum-number-game": {
+    "synced_ids": [
+      "1978773093"
+    ],
+    "versions": [
+      {
+        "code_hash": "-2911140157263037935",
+        "date": "2026-04-15",
+        "id": "1978773093",
+        "lang": "cpp",
+        "memory": "28.2 MB",
+        "runtime": "3\u00a0months",
+        "version": 1
+      }
+    ]
+  },
+  "missing-number": {
+    "synced_ids": [
+      "1993977681"
+    ],
+    "versions": [
+      {
+        "code_hash": "-8234716724317315525",
+        "date": "2026-05-03",
+        "id": "1993977681",
+        "lang": "cpp",
+        "memory": "21.8 MB",
+        "runtime": "2\u00a0months, 2\u00a0weeks",
+        "version": 1
+      }
+    ]
+  },
+  "move-zeroes": {
+    "synced_ids": [
+      "1982792984"
+    ],
+    "versions": [
+      {
+        "code_hash": "1996563777268736584",
+        "date": "2026-04-19",
+        "id": "1982792984",
+        "lang": "cpp",
+        "memory": "24 MB",
+        "runtime": "2\u00a0months, 4\u00a0weeks",
+        "version": 1
+      }
+    ]
+  },
+  "nim-game": {
+    "synced_ids": [
+      "2059900825"
+    ],
+    "versions": [
+      {
+        "code_hash": "-7949424613965524206",
+        "date": "2026-07-08",
+        "id": "2059900825",
+        "lang": "cpp",
+        "memory": "7.6 MB",
+        "runtime": "1\u00a0week, 3\u00a0days",
+        "version": 1
+      }
+    ]
+  },
+  "number-of-elapsed-seconds-between-two-times": {
+    "synced_ids": [
+      "2067478876"
+    ],
+    "versions": [
+      {
+        "code_hash": "-3208517829760020669",
+        "date": "2026-07-14",
+        "id": "2067478876",
+        "lang": "cpp",
+        "memory": "10.1 MB",
+        "runtime": "3\u00a0days, 16\u00a0hours",
+        "version": 1
+      }
+    ]
+  },
+  "palindrome-number": {
+    "synced_ids": [
+      "2022987144"
+    ],
+    "versions": [
+      {
+        "code_hash": "906688175049059679",
+        "date": "2026-06-05",
+        "id": "2022987144",
+        "lang": "cpp",
+        "memory": "8.7 MB",
+        "runtime": "1\u00a0month, 1\u00a0week",
+        "version": 1
+      }
+    ]
+  },
+  "pascals-triangle": {
+    "synced_ids": [
+      "2056929214"
+    ],
+    "versions": [
+      {
+        "code_hash": "7482570917680139298",
+        "date": "2026-07-05",
+        "id": "2056929214",
+        "lang": "cpp",
+        "memory": "9.5 MB",
+        "runtime": "1\u00a0week, 5\u00a0days",
+        "version": 1
+      }
+    ]
+  },
+  "pascals-triangle-ii": {
+    "synced_ids": [
+      "2057052161"
+    ],
+    "versions": [
+      {
+        "code_hash": "1073687300965814395",
+        "date": "2026-07-05",
+        "id": "2057052161",
+        "lang": "cpp",
+        "memory": "9.1 MB",
+        "runtime": "1\u00a0week, 5\u00a0days",
+        "version": 1
+      }
+    ]
+  },
+  "power-of-two": {
+    "synced_ids": [
+      "1809567666"
+    ],
+    "versions": [
+      {
+        "code_hash": "1760629800725033982",
+        "date": "2025-10-23",
+        "id": "1809567666",
+        "lang": "cpp",
+        "memory": "8 MB",
+        "runtime": "8\u00a0months, 3\u00a0weeks",
+        "version": 1
+      }
+    ]
+  },
+  "rearrange-array-elements-by-sign": {
+    "synced_ids": [
+      "2008271501",
+      "2008278801"
+    ],
+    "versions": [
+      {
+        "code_hash": "1273032672202634666",
+        "date": "2026-05-20",
+        "id": "2008271501",
+        "lang": "cpp",
+        "memory": "139.1 MB",
+        "runtime": "1\u00a0month, 3\u00a0weeks",
+        "version": 1
+      },
+      {
+        "code_hash": "3414609033462462959",
+        "date": "2026-05-20",
+        "id": "2008278801",
+        "lang": "cpp",
+        "memory": "128.3 MB",
+        "runtime": "1\u00a0month, 3\u00a0weeks",
+        "version": 2
+      }
+    ]
+  },
+  "remove-duplicates-from-sorted-array": {
+    "synced_ids": [
+      "2022205600",
+      "2071159733"
+    ],
+    "versions": [
+      {
+        "code_hash": "765181167997956256",
+        "date": "2026-06-04",
+        "id": "2022205600",
+        "lang": "cpp",
+        "memory": "22.7 MB",
+        "runtime": "1\u00a0month, 1\u00a0week",
+        "version": 1
+      },
+      {
+        "code_hash": "3039024752361799175",
+        "date": "2026-07-17",
+        "id": "2071159733",
+        "lang": "cpp",
+        "memory": "22.6 MB",
+        "runtime": "17\u00a0hours, 15\u00a0minutes",
+        "version": 2
+      }
+    ]
+  },
+  "reverse-linked-list": {
+    "synced_ids": [
+      "1790981916",
+      "1809555929",
+      "1812522806",
+      "2039841896"
+    ],
+    "versions": [
+      {
+        "code_hash": "3807002826762731226",
+        "date": "2025-10-04",
+        "id": "1790981916",
+        "lang": "cpp",
+        "memory": "13.5 MB",
+        "runtime": "9\u00a0months, 1\u00a0week",
+        "version": 1
+      },
+      {
+        "code_hash": "1237249176582022131",
+        "date": "2025-10-23",
+        "id": "1809555929",
+        "lang": "cpp",
+        "memory": "13.5 MB",
+        "runtime": "8\u00a0months, 3\u00a0weeks",
+        "version": 2
+      },
+      {
+        "code_hash": "4968690566232630744",
+        "date": "2025-10-26",
+        "id": "1812522806",
+        "lang": "cpp",
+        "memory": "13.4 MB",
+        "runtime": "8\u00a0months, 3\u00a0weeks",
+        "version": 3
+      },
+      {
+        "code_hash": "-3314487123258562749",
+        "date": "2026-06-20",
+        "id": "2039841896",
+        "lang": "cpp",
+        "memory": "13.5 MB",
+        "runtime": "3\u00a0weeks, 6\u00a0days",
+        "version": 4
+      }
+    ]
+  },
+  "reverse-vowels-of-a-string": {
+    "synced_ids": [
+      "2071144233"
+    ],
+    "versions": [
+      {
+        "code_hash": "-3144847262635013549",
+        "date": "2026-07-17",
+        "id": "2071144233",
+        "lang": "cpp",
+        "memory": "10.2 MB",
+        "runtime": "17\u00a0hours, 31\u00a0minutes",
+        "version": 1
+      }
+    ]
+  },
+  "reverse-words-in-a-string": {
+    "synced_ids": [
+      "2071669786"
+    ],
+    "versions": [
+      {
+        "code_hash": "-7942928434363891942",
+        "date": "2026-07-18",
+        "id": "2071669786",
+        "lang": "cpp",
+        "memory": "23.9 MB",
+        "runtime": "4\u00a0hours, 26\u00a0minutes",
+        "version": 1
+      }
+    ]
+  },
+  "rotate-array": {
+    "synced_ids": [
+      "2021389581"
+    ],
+    "versions": [
+      {
+        "code_hash": "7288634966801283655",
+        "date": "2026-06-03",
+        "id": "2021389581",
+        "lang": "cpp",
+        "memory": "29.6 MB",
+        "runtime": "1\u00a0month, 2\u00a0weeks",
+        "version": 1
+      }
+    ]
+  },
+  "search-a-2d-matrix": {
+    "synced_ids": [
+      "1958670016",
+      "1958674459",
+      "1958674693"
+    ],
+    "versions": [
+      {
+        "code_hash": "-6272145091561678752",
+        "date": "2026-03-25",
+        "id": "1958670016",
+        "lang": "python3",
+        "memory": "19.6 MB",
+        "runtime": "3\u00a0months, 3\u00a0weeks",
+        "version": 1
+      },
+      {
+        "code_hash": "-1497451550485063393",
+        "date": "2026-03-25",
+        "id": "1958674459",
+        "lang": "python3",
+        "memory": "19.7 MB",
+        "runtime": "3\u00a0months, 3\u00a0weeks",
+        "version": 2
+      }
+    ]
+  },
+  "search-in-a-binary-search-tree": {
+    "synced_ids": [
+      "2045697518"
+    ],
+    "versions": [
+      {
+        "code_hash": "485526484329347495",
+        "date": "2026-06-25",
+        "id": "2045697518",
+        "lang": "cpp",
+        "memory": "35.6 MB",
+        "runtime": "3\u00a0weeks, 1\u00a0day",
+        "version": 1
+      }
+    ]
+  },
+  "set-mismatch": {
+    "synced_ids": [
+      "2021462499",
+      "2021463116"
+    ],
+    "versions": [
+      {
+        "code_hash": "-1601256933164400114",
+        "date": "2026-06-03",
+        "id": "2021462499",
+        "lang": "cpp",
+        "memory": "34.8 MB",
+        "runtime": "1\u00a0month, 2\u00a0weeks",
+        "version": 1
+      },
+      {
+        "code_hash": "527875376965958522",
+        "date": "2026-06-03",
+        "id": "2021463116",
+        "lang": "cpp",
+        "memory": "25 MB",
+        "runtime": "1\u00a0month, 2\u00a0weeks",
+        "version": 2
+      }
+    ]
+  },
+  "shuffle-the-array": {
+    "synced_ids": [
+      "2021446222"
+    ],
+    "versions": [
+      {
+        "code_hash": "-5885878580486653257",
+        "date": "2026-06-03",
+        "id": "2021446222",
+        "lang": "cpp",
+        "memory": "13.3 MB",
+        "runtime": "1\u00a0month, 2\u00a0weeks",
+        "version": 1
+      }
+    ]
+  },
+  "sort-colors": {
+    "synced_ids": [
+      "1997025062",
+      "1997481584",
+      "1998994861",
+      "2019774946",
+      "2025459993",
+      "2058779374"
+    ],
+    "versions": [
+      {
+        "code_hash": "8583646157208672052",
+        "date": "2026-05-07",
+        "id": "1997025062",
+        "lang": "cpp",
+        "memory": "11.6 MB",
+        "runtime": "2\u00a0months, 1\u00a0week",
+        "version": 1
+      },
+      {
+        "code_hash": "4149399158352492989",
+        "date": "2026-05-07",
+        "id": "1997481584",
+        "lang": "cpp",
+        "memory": "11.7 MB",
+        "runtime": "2\u00a0months, 1\u00a0week",
+        "version": 2
+      },
+      {
+        "code_hash": "827276074527731684",
+        "date": "2026-05-09",
+        "id": "1998994861",
+        "lang": "cpp",
+        "memory": "11.5 MB",
+        "runtime": "2\u00a0months, 1\u00a0week",
+        "version": 3
+      },
+      {
+        "code_hash": "4353678326902507171",
+        "date": "2026-06-02",
+        "id": "2019774946",
+        "lang": "cpp",
+        "memory": "11.7 MB",
+        "runtime": "1\u00a0month, 2\u00a0weeks",
+        "version": 4
+      },
+      {
+        "code_hash": "-3577338063753405816",
+        "date": "2026-06-07",
+        "id": "2025459993",
+        "lang": "cpp",
+        "memory": "11.8 MB",
+        "runtime": "1\u00a0month, 1\u00a0week",
+        "version": 5
+      },
+      {
+        "code_hash": "2296833019780450410",
+        "date": "2026-07-07",
+        "id": "2058779374",
+        "lang": "cpp",
+        "memory": "11.7 MB",
+        "runtime": "1\u00a0week, 4\u00a0days",
+        "version": 6
+      }
+    ]
+  },
+  "sqrtx": {
+    "synced_ids": [
+      "1790985632",
+      "1791007679",
+      "1791014311"
+    ],
+    "versions": [
+      {
+        "code_hash": "5033397655596655789",
+        "date": "2025-10-04",
+        "id": "1790985632",
+        "lang": "cpp",
+        "memory": "8.5 MB",
+        "runtime": "9\u00a0months, 1\u00a0week",
+        "version": 1
+      },
+      {
+        "code_hash": "2087594378910030084",
+        "date": "2025-10-04",
+        "id": "1791007679",
+        "lang": "cpp",
+        "memory": "8.6 MB",
+        "runtime": "9\u00a0months, 1\u00a0week",
+        "version": 2
+      }
+    ]
+  },
+  "top-k-frequent-elements": {
+    "synced_ids": [
+      "2058298999",
+      "2058642729"
+    ],
+    "versions": [
+      {
+        "code_hash": "1172213836989382483",
+        "date": "2026-07-06",
+        "id": "2058298999",
+        "lang": "cpp",
+        "memory": "20 MB",
+        "runtime": "1\u00a0week, 4\u00a0days",
+        "version": 1
+      },
+      {
+        "code_hash": "3808478978948185097",
+        "date": "2026-07-07",
+        "id": "2058642729",
+        "lang": "cpp",
+        "memory": "19.9 MB",
+        "runtime": "1\u00a0week, 4\u00a0days",
+        "version": 2
+      }
+    ]
+  },
+  "two-sum": {
+    "synced_ids": [
+      "1812548937",
+      "1812550859"
+    ],
+    "versions": [
+      {
+        "code_hash": "-5846276333560633756",
+        "date": "2025-10-26",
+        "id": "1812548937",
+        "lang": "cpp",
+        "memory": "14 MB",
+        "runtime": "8\u00a0months, 3\u00a0weeks",
+        "version": 1
+      },
+      {
+        "code_hash": "-2780082292293966412",
+        "date": "2025-10-26",
+        "id": "1812550859",
+        "lang": "cpp",
+        "memory": "14.1 MB",
+        "runtime": "8\u00a0months, 3\u00a0weeks",
+        "version": 2
+      }
+    ]
+  },
+  "two-sum-ii-input-array-is-sorted": {
+    "synced_ids": [
+      "1958952026",
+      "2039837732"
+    ],
+    "versions": [
+      {
+        "code_hash": "-1944972053095045205",
+        "date": "2026-03-25",
+        "id": "1958952026",
+        "lang": "cpp",
+        "memory": "19.6 MB",
+        "runtime": "3\u00a0months, 3\u00a0weeks",
+        "version": 1
+      },
+      {
+        "code_hash": "-4745707876401774615",
+        "date": "2026-06-20",
+        "id": "2039837732",
+        "lang": "cpp",
+        "memory": "19.4 MB",
+        "runtime": "3\u00a0weeks, 6\u00a0days",
+        "version": 2
+      }
+    ]
+  },
+  "ugly-number": {
+    "synced_ids": [
+      "2052480063",
+      "2052952262"
+    ],
+    "versions": [
+      {
+        "code_hash": "4017841489791324176",
+        "date": "2026-07-01",
+        "id": "2052480063",
+        "lang": "cpp",
+        "memory": "7.9 MB",
+        "runtime": "2\u00a0weeks, 2\u00a0days",
+        "version": 1
+      },
+      {
+        "code_hash": "4621394405366444137",
+        "date": "2026-07-02",
+        "id": "2052952262",
+        "lang": "cpp",
+        "memory": "7.8 MB",
+        "runtime": "2\u00a0weeks, 2\u00a0days",
+        "version": 2
+      }
+    ]
+  },
+  "unique-paths": {
+    "synced_ids": [
+      "2055759067",
+      "2055770404"
+    ],
+    "versions": [
+      {
+        "code_hash": "-499424481276900175",
+        "date": "2026-07-04",
+        "id": "2055759067",
+        "lang": "cpp",
+        "memory": "9.5 MB",
+        "runtime": "1\u00a0week, 6\u00a0days",
+        "version": 1
+      },
+      {
+        "code_hash": "-757074314993430350",
+        "date": "2026-07-04",
+        "id": "2055770404",
+        "lang": "cpp",
+        "memory": "8 MB",
+        "runtime": "1\u00a0week, 6\u00a0days",
+        "version": 2
+      }
+    ]
+  },
+  "valid-anagram": {
+    "synced_ids": [
+      "2048542408",
+      "2049436735",
+      "2049437795",
+      "2055711769",
+      "2055712626"
+    ],
+    "versions": [
+      {
+        "code_hash": "1272798868840156379",
+        "date": "2026-06-28",
+        "id": "2048542408",
+        "lang": "cpp",
+        "memory": "9.8 MB",
+        "runtime": "2\u00a0weeks, 6\u00a0days",
+        "version": 1
+      },
+      {
+        "code_hash": "5811813853421603863",
+        "date": "2026-06-29",
+        "id": "2049436735",
+        "lang": "cpp",
+        "memory": "9.9 MB",
+        "runtime": "2\u00a0weeks, 5\u00a0days",
+        "version": 2
+      },
+      {
+        "code_hash": "7927020937069408927",
+        "date": "2026-07-04",
+        "id": "2055711769",
+        "lang": "cpp",
+        "memory": "9.9 MB",
+        "runtime": "1\u00a0week, 6\u00a0days",
+        "version": 3
+      },
+      {
+        "code_hash": "-2332296717406435683",
+        "date": "2026-07-04",
+        "id": "2055712626",
+        "lang": "cpp",
+        "memory": "9.7 MB",
+        "runtime": "1\u00a0week, 6\u00a0days",
+        "version": 4
+      }
+    ]
+  },
+  "valid-palindrome": {
+    "synced_ids": [
+      "2049002160"
+    ],
+    "versions": [
+      {
+        "code_hash": "-7084028501844188012",
+        "date": "2026-06-28",
+        "id": "2049002160",
+        "lang": "cpp",
+        "memory": "9.9 MB",
+        "runtime": "2\u00a0weeks, 5\u00a0days",
+        "version": 1
+      }
+    ]
+  },
+  "valid-parentheses": {
+    "synced_ids": [
+      "2032919079"
+    ],
+    "versions": [
+      {
+        "code_hash": "4194843968503801836",
+        "date": "2026-06-14",
+        "id": "2032919079",
+        "lang": "cpp",
+        "memory": "8.8 MB",
+        "runtime": "1\u00a0month",
+        "version": 1
+      }
+    ]
+  }
+}
