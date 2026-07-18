@@ -1,0 +1,45 @@
+name: Sync LeetCode submissions
+
+on:
+  schedule:
+    # Runs once a day at 03:00 UTC (~8:30 AM IST). Adjust as you like.
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}  # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run sync script
+        env:
+          LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
+          CSRF_TOKEN: ${{ secrets.CSRF_TOKEN }}
+        run: python scripts/sync_leetcode.py
+
+      - name: Commit and push if there are changes
+        run: |
+          if [ -f .commit_message.txt ]; then
+            git config user.name "leetcode-sync-bot"
+            git config user.email "actions@users.noreply.github.com"
+            MSG=$(cat .commit_message.txt)
+            rm -f .commit_message.txt
+            git add -A
+            git commit -m "$MSG"
+            git push
+          else
+            echo "No new solutions to commit."
+          fi
