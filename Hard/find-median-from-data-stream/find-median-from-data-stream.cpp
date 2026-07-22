@@ -14,7 +14,7 @@ public:
         right_min_heap.push(num);
        }
 
-       //always maintain lmh one grater than rightminheap, or dono ka size equal ho
+       //always maintain lmh one greater than rightminheap, or dono ka size equal ho
 
        if(abs((int)left_max_heap.size()-(int)right_min_heap.size())>1){
             right_min_heap.push(left_max_heap.top());
