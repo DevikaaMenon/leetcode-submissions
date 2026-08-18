@@ -46,7 +46,9 @@ SESSION.cookies.set("csrftoken", CSRF_TOKEN, domain="leetcode.com")
 SESSION.headers.update({
     "Referer": "https://leetcode.com",
     "x-csrftoken": CSRF_TOKEN,
-    "User-Agent": "Mozilla/5.0",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
 })
 
 
@@ -61,17 +63,22 @@ def save_state(state):
 
 
 def fetch_difficulty_lookup():
-    resp = requests.get(
-        "https://leetcode.com/api/problems/algorithms/",
-        headers={"User-Agent": "Mozilla/5.0"},
-    )
-    resp.raise_for_status()
-    data = resp.json()
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                      "(KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+    }
     lookup = {}
-    for item in data["stat_status_pairs"]:
-        slug = item["stat"]["question__title_slug"]
-        level = item["difficulty"]["level"]
-        lookup[slug] = DIFFICULTY_MAP.get(level, "Unknown")
+    for category in ("algorithms", "database"):
+        resp = requests.get(
+            f"https://leetcode.com/api/problems/{category}/",
+            headers=headers,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        for item in data["stat_status_pairs"]:
+            slug = item["stat"]["question__title_slug"]
+            level = item["difficulty"]["level"]
+            lookup[slug] = DIFFICULTY_MAP.get(level, "Unknown")
     return lookup
 
 
