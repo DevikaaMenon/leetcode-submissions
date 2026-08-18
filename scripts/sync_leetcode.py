@@ -8,7 +8,9 @@ of the repo. It:
   2. Groups them by problem, keeping every version with genuinely
      different code (so brute force -> better -> optimal all survive
      as separate files instead of overwriting each other).
-  3. Writes new versions as Easy|Medium|Hard/<slug>/solution_vN.<ext>
+  3. Writes new versions as <pattern>/<slug>/solution_vN.<ext>, where
+     <pattern> comes from PATTERN_MAP in pattern_map.py (falls back to
+     "Uncategorized" for problems not yet mapped there).
   4. Tracks what's already been synced in sync_state.json so re-runs
      are cheap and idempotent (no duplicate files, no reprocessing).
 
@@ -24,6 +26,8 @@ import time
 import requests
 from pathlib import Path
 
+from pattern_map import PATTERN_MAP
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 STATE_FILE = REPO_ROOT / "sync_state.json"
 
@@ -37,8 +41,6 @@ LANG_EXT = {
     "rust": "rs", "php": "php", "mysql": "sql", "elixir": "ex",
     "racket": "rkt", "erlang": "erl", "dart": "dart",
 }
-
-DIFFICULTY_MAP = {1: "Easy", 2: "Medium", 3: "Hard"}
 
 SESSION = requests.Session()
 SESSION.cookies.set("LEETCODE_SESSION", LEETCODE_SESSION, domain="leetcode.com")
@@ -60,26 +62,6 @@ def load_state():
 
 def save_state(state):
     STATE_FILE.write_text(json.dumps(state, indent=2, sort_keys=True))
-
-
-def fetch_difficulty_lookup():
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                      "(KHTML, like Gecko) Chrome/120.0 Safari/537.36",
-    }
-    lookup = {}
-    for category in ("algorithms", "database"):
-        resp = requests.get(
-            f"https://leetcode.com/api/problems/{category}/",
-            headers=headers,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        for item in data["stat_status_pairs"]:
-            slug = item["stat"]["question__title_slug"]
-            level = item["difficulty"]["level"]
-            lookup[slug] = DIFFICULTY_MAP.get(level, "Unknown")
-    return lookup
 
 
 def fetch_all_accepted():
@@ -111,19 +93,20 @@ def fetch_all_accepted():
 
 
 def main():
-    print("Fetching difficulty data...")
-    difficulty_lookup = fetch_difficulty_lookup()
-
     print("Fetching accepted submissions...")
     submissions_by_slug = fetch_all_accepted()
 
     state = load_state()
     new_files = []
     touched_slugs = []
+    uncategorized_slugs = []
 
     for slug, subs in submissions_by_slug.items():
-        difficulty = difficulty_lookup.get(slug, "Unknown")
-        problem_dir = REPO_ROOT / difficulty / slug
+        pattern = PATTERN_MAP.get(slug)
+        if pattern is None:
+            pattern = "Uncategorized"
+            uncategorized_slugs.append(slug)
+        problem_dir = REPO_ROOT / pattern / slug
         slug_state = state.setdefault(slug, {"synced_ids": [], "versions": []})
 
         for sub in subs:
@@ -163,6 +146,11 @@ def main():
                 touched_slugs.append(slug)
 
     save_state(state)
+
+    if uncategorized_slugs:
+        print(f"NOTE: {len(uncategorized_slugs)} problem(s) have no entry in "
+              f"pattern_map.py and were filed under Uncategorized/: "
+              f"{', '.join(sorted(set(uncategorized_slugs)))}")
 
     if new_files:
         print(f"Added {len(new_files)} new solution file(s) across "
