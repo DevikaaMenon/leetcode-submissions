@@ -22,6 +22,7 @@ everything a run adds.
 
 import os
 import json
+import hashlib
 import time
 import requests
 from pathlib import Path
@@ -64,25 +65,53 @@ def save_state(state):
     STATE_FILE.write_text(json.dumps(state, indent=2, sort_keys=True))
 
 
+GRAPHQL_URL = "https://leetcode.com/graphql"
+
+SUBMISSION_LIST_QUERY = """
+query submissionList($offset: Int!, $limit: Int!) {
+  submissionList(offset: $offset, limit: $limit) {
+    hasNext
+    submissions { id statusDisplay lang timestamp titleSlug }
+  }
+}
+"""
+
+SUBMISSION_DETAILS_QUERY = """
+query submissionDetails($submissionId: Int!) {
+  submissionDetails(submissionId: $submissionId) {
+    code runtimeDisplay memoryDisplay
+  }
+}
+"""
+
+
+def graphql(query, variables):
+    resp = SESSION.post(GRAPHQL_URL, json={"query": query, "variables": variables})
+    resp.raise_for_status()
+    body = resp.json()
+    if body.get("errors"):
+        raise RuntimeError(f"LeetCode GraphQL error: {body['errors']}")
+    return body["data"]
+
+
 def fetch_all_accepted():
-    """Returns {slug: [submission, ...]} in chronological order (oldest first)."""
+    """Returns {slug: [submission, ...]} in chronological order (oldest first).
+
+    Uses the GraphQL API; the old /api/submissions/ REST endpoint is now
+    behind a Cloudflare challenge. Code is NOT included here -- it's fetched
+    per submission via fetch_details() only for submissions not yet synced.
+    """
     by_slug = {}
     offset, limit = 0, 20
     while True:
-        resp = SESSION.get(
-            "https://leetcode.com/api/submissions/",
-            params={"offset": offset, "limit": limit},
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        subs = data.get("submissions_dump", [])
-        if not subs:
-            break
+        data = graphql(SUBMISSION_LIST_QUERY, {"offset": offset, "limit": limit})
+        page = data["submissionList"]
+        subs = page.get("submissions") or []
         for sub in subs:
-            if sub.get("status_display") != "Accepted":
+            if sub.get("statusDisplay") != "Accepted":
                 continue
-            by_slug.setdefault(sub["title_slug"], []).append(sub)
-        if not data.get("has_next"):
+            by_slug.setdefault(sub["titleSlug"], []).append(sub)
+        if not subs or not page.get("hasNext"):
             break
         offset += limit
         time.sleep(0.4)
@@ -90,6 +119,11 @@ def fetch_all_accepted():
     for slug in by_slug:
         by_slug[slug].sort(key=lambda s: int(s["timestamp"]))
     return by_slug
+
+
+def fetch_details(sub_id):
+    time.sleep(0.4)
+    return graphql(SUBMISSION_DETAILS_QUERY, {"submissionId": int(sub_id)})["submissionDetails"] or {}
 
 
 def main():
@@ -114,11 +148,12 @@ def main():
             if sub_id in slug_state["synced_ids"]:
                 continue
 
-            code = (sub.get("code") or "").strip()
+            details = fetch_details(sub_id)
+            code = (details.get("code") or "").strip()
             if not code:
                 continue
 
-            code_hash = hash(code)
+            code_hash = hashlib.sha256(code.encode("utf-8")).hexdigest()
             if any(v["code_hash"] == code_hash for v in slug_state["versions"]):
                 slug_state["synced_ids"].append(sub_id)
                 continue
@@ -133,8 +168,8 @@ def main():
                 "id": sub_id,
                 "version": version_num,
                 "date": time.strftime("%Y-%m-%d", time.gmtime(int(sub["timestamp"]))),
-                "runtime": sub.get("time") or sub.get("status_runtime") or "N/A",
-                "memory": sub.get("memory") or sub.get("status_memory") or "N/A",
+                "runtime": details.get("runtimeDisplay") or "N/A",
+                "memory": details.get("memoryDisplay") or "N/A",
                 "lang": sub.get("lang", "?"),
                 "code_hash": code_hash,
             }
